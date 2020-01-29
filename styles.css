@@ -1,0 +1,230 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --main-font: 'Nunito Sans';
+  --main-font-size: 20px;
+  --secondary-font-size: 16px;
+
+  --main-button-height: 40px;
+  --main-button-width: 200px;
+  --main-button-bg-color: #d9534f;
+  --main-button-text-color: white;
+  --main-button-font-weight: 600;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: var(--main-font);
+  font-weight: bolder;
+}
+
+button {
+  height: var(--main-button-height);
+  width: var(--main-button-width);
+  background-color: var(--main-button-bg-color);
+  color: var(--main-button-text-color);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-button-font-weight);
+  border: none;
+}
+
+#headerDiv {
+  height: 75px;
+  border: solid black 2px;
+  position: fixed;
+  z-index: 1;
+}
+
+#logoDiv {
+  background-image: url('https://freebies2deals.com/wp-content/uploads/2012/08/Freebies2Deals-PFChangs.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75px;
+  width: 75px;
+}
+
+#navBar {
+  height: 60px;
+  background-color: #3b3b3b;
+}
+
+#headerContentDiv {
+  height: 85px;
+  background-color: black;
+}
+
+#customerServiceDiv {
+  height: 75px;
+}
+
+#contentDiv {
+  padding-top: 150px;
+  height: 60%;
+  position: relative;
+}
+
+#img1Div {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fprivacyriskreport.com%2Fwp-content%2Fuploads%2F2017%2F05%2F2048x1365_SL45_PF_Changs_Temecula_CA_01.jpg&f=1&nofb=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-right: solid black 2px;
+}
+
+#img2Div_1 {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fprivacyriskreport.com%2Fwp-content%2Fuploads%2F2017%2F05%2F2048x1365_SL45_PF_Changs_Temecula_CA_01.jpg&f=1&nofb=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+#img2Div_2 {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fprivacyriskreport.com%2Fwp-content%2Fuploads%2F2017%2F05%2F2048x1365_SL45_PF_Changs_Temecula_CA_01.jpg&f=1&nofb=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  border-left: solid black 2px;
+  border-top: solid black 2px;
+}
+
+#footerDiv {
+  height: 20%;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+}
